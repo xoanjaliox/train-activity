@@ -16,19 +16,15 @@
     color: #ffffff;
 }
 
-
-.img{
-height:20rem;
-};
-
-.one-hunnid{
-    width:100%;
-};
+.current-time {
+    font-family: 'Nunito', sans-serif;
+    font-size: 32px;
+    color: #000000;
+}
 
 #row{
     font-family: 'Nunito', sans-serif;
 }
-
 
 #train-name{
     font-weight:normal;
