@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Nunito|Vast+Shadow&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+<body>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-3">Anytime is Train Time</h1>
+            <p class="lead">Choo Choo. Chee Chee.</p>
+        </div>
+    </div>
+
+    <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">Current Time</h4>
+              <h6 class="card-subtitle mb-2 text-muted current-time"></h6>
+          </div>
+
+    <div class="card">
+        <div class="card-header">
+            Current Train Schedule
+        </div>
+        <div class="card-body">
+            <table class="table table-striped">
+                <tbody>
+                    <tr>
+                        <td>Train Name</td>
+                        <td>Destination</td>
+                        <td>Frequency (min)</td>
+                        <td>Next Arrival</td>
+                        <td>Mins Away</td>
+                    </tr>
+                    <tr class="table-info">
+
+
+
+
+
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-header">
+            Add Train
+        </div>
+        <div class="card-body">
+            <form>
+                <div class="form-group">
+                    <label for="formGroupExampleInput">Train Name</label>
+                    <input type="text" class="form-control" id="train-name" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="formGroupExampleInput2">Destination</label>
+                    <input type="text" class="form-control" id="destination" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="formGroupExampleInput">First Train Time</label>
+                    <input type="text" class="form-control" id="first-train-time" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="formGroupExampleInput2">Frequency (min)</label>
+                    <input type="text" class="form-control" id="frequency" placeholder="">
+                </div>
+            </form>
+            <button type="button" class="btn btn-info">Submit</button>
+        </div>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script src="assets/js/app.js" async defer></script>
+</body>
+
+</html>

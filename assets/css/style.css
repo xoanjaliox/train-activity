@@ -1,0 +1,54 @@
+.jumbotron, .jumbotron-fluid {
+    text-align: center;
+    background-color: #000000;
+}
+
+.display-3 {
+    color: #ffffff;
+    font-family: 'Vast Shadow', cursive;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.lead {
+    font-family: 'Nunito', sans-serif;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+
+.img{
+height:20rem;
+};
+
+.one-hunnid{
+    width:100%;
+};
+
+#row{
+    font-family: 'Oswald', sans-serif;
+}
+
+.google-font{
+    font-family: 'Oswald', sans-serif;
+}
+
+#train-name{
+    font-weight:normal;
+}
+
+#destination{
+    font-weight:normal;
+}
+
+#first-train-time{
+    font-weight:normal;
+}
+
+#frequency{
+    font-weight:normal;
+}
+
+#tic-toc{
+    align-content:center;
+}
