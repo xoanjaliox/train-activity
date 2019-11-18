@@ -14,7 +14,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link href="https://fonts.googleapis.com/css?family=Nunito|Vast+Shadow&display=swap" rel="stylesheet">
-    
+
     <!-- jQuery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
@@ -25,7 +25,8 @@
     <!-- Firebase References -->
     <script src="https://www.gstatic.com/firebasejs/7.4.0/firebase-app.js"></script>
 
-    <script src="https://www.gstatic.com/firebasejs/7.4.0/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.4.0/firebase-database.js"></script>
+
 </head>
 <link rel="stylesheet" href="assets/css/style.css">
 
@@ -49,7 +50,7 @@
             </div>
             <div class="card-body">
                 <table class="table table-striped">
-                    <tbody>
+                    <thead>
                         <tr>
                             <td>Train Name</td>
                             <td>Destination</td>
@@ -57,6 +58,8 @@
                             <td>Next Arrival</td>
                             <td>Mins Away</td>
                         </tr>
+                    </thead>
+                    <tbody id="row">
                         <tr class="table-info">
 
 

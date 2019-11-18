@@ -11,12 +11,11 @@ var firebaseConfig = {
     measurementId: "G-DT07ZSG9D5"
 };
 
-
 firebase.initializeApp(firebaseConfig);
 
 
 //variable to use firebase database
-var database= firebase.database();
+var database = firebase.database();
 
 //set to empty string
 var trainName=" ";
@@ -102,7 +101,7 @@ var display= moment(nextArrival).format("hh:mm");
  console.log(display); 
 console.log("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
 //add row
-$("#row").append('<tr>'+ '<td>'+ train+ '</td>'+ '<td>'+ dest+ '</td>'+ '<td>'+ frequency+ '</td>'+ '<td>'+ display+ '</td>'+ '<td>'+ minAway + '</td>'+'</tr>');
+$("#row").append('<tr>' + '<td>' + train + '</td>' + '<td>' + dest + '</td>' + '<td>' + frequency + '</td>' + '<td>' + display + '</td>' + '<td>' + minsAway + '</td>' + '</tr>');
 
 
 
