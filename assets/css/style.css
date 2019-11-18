@@ -26,12 +26,9 @@ height:20rem;
 };
 
 #row{
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Nunito', sans-serif;
 }
 
-.google-font{
-    font-family: 'Oswald', sans-serif;
-}
 
 #train-name{
     font-weight:normal;
