@@ -1,14 +1,14 @@
 
 //initialize firebase
 var firebaseConfig = {
-    apiKey: "AIzaSyDYo_bP8YkUF3S8XXWT7orHZTMxEhWrJy8",
-    authDomain: "train-scheduler-42498.firebaseapp.com",
-    databaseURL: "https://train-scheduler-42498.firebaseio.com",
-    projectId: "train-scheduler-42498",
-    storageBucket: "train-scheduler-42498.appspot.com",
-    messagingSenderId: "634416690527",
-    appId: "1:634416690527:web:23e022877210c3673eb2ea",
-    measurementId: "G-8SLE8SG7Z2"
+    apiKey: "AIzaSyCgaOdiiHcY3BrmdeV0gSJgXVYXdYHO1gs",
+    authDomain: "train-scheduler-2efb5.firebaseapp.com",
+    databaseURL: "https://train-scheduler-2efb5.firebaseio.com",
+    projectId: "train-scheduler-2efb5",
+    storageBucket: "train-scheduler-2efb5.appspot.com",
+    messagingSenderId: "521538739149",
+    appId: "1:521538739149:web:7225e4ede616a3e07d8284",
+    measurementId: "G-DT07ZSG9D5"
 };
 
 
@@ -26,7 +26,7 @@ var frequencyMin="";
 
 //current time for display and later use 
 var time= moment().format('LT')
-$("#tic-toc").html(time);
+$("#current-time").html(time);
 
 console.log(time);
 //event listener
